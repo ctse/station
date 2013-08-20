@@ -1,0 +1,14 @@
+## Config, just as the title says
+
+name: "Digital and Multiplatform Storytelling"
+language: en-AU
+baseurl: http://station.claratse.com/
+
+permalink: /:title/
+timezone: Australia/Sydney
+
+author:
+  name: Clara Tse
+  url: http://kirinyan.net
+  twitter: hanezawakirika
+  github: ctse
