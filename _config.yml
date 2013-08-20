@@ -2,7 +2,7 @@
 
 name: "Digital and Multiplatform Storytelling"
 language: en-AU
-baseurl: http://station.claratse.com/
+baseurl: http://station.claratse.com
 
 permalink: /:title/
 timezone: Australia/Sydney
