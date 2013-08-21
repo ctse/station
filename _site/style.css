@@ -20,7 +20,7 @@ img {
 /*  TOP LEVEL  ****************************************************************/
 html {
   background-color:white;
-  padding:0 20px;
+  padding:0 15px;
   text-align:center; /* CENTERING FOR IE */
 }
 body {
@@ -31,38 +31,20 @@ body {
   text-align:left; /* TO FIX CENTERING IE HACK ABOVE */
   width:700px;
 }
-a { text-decoration:none }
-a:hover { text-decoration:none }
-img { display:inline }
-
-/*  SIDEBAR  ******************************************************************/
-
-#sidebar {
-  float:left;
-  margin-bottom:20px;
-  margin-right:20px;
-  text-align:right;
-  width:205px;
-  height:100%;
-  position:absolute;
+a {
+  text-decoration:none;
+  color:#000;
+  border-bottom:1px solid black;
 }
-#sidebar img {
-  margin-top:40px;
+a:hover {
+  text-decoration:none;
+  border-bottom:1px solid red;
 }
-
-/*  NAVIGATION  */
-
-nav ul {
-  margin-bottom:20px;
+img { 
+  display:inline;
+  max-width:500px;
+  border: 5px solid #000;
 }
-nav ul, nav li {
-  margin:0;
-  padding:0;
-}
-nav li { display:inline }
-nav li a { text-decoration:none }
-nav li a:hover { text-decoration:strikeout }
-
 hr {
 	background-color: #c1c1c1;
 	border: none;
@@ -70,10 +52,77 @@ hr {
 	margin: 10px 0px 10px 0px;
 }
 
+/*  SIDEBAR  ******************************************************************/
+
+header img {
+  border:none;
+}
+#sidebar {
+  float:left;
+  margin-bottom:20px;
+  margin-right:20px;
+  text-align:right;
+  width:220px;
+  height:100%;
+  position:absolute;
+  border-right:1px solid #990000;
+  border-left:1px solid #990000;
+}
+#sidebar img {
+  margin-top:80px;
+  margin-right:10px;
+  margin-left:10px;
+}
+#sidebar a {
+  text-transform:uppercase;
+  border-bottom:1px solid black;
+  color:#000;
+}
+#sidebar a:hover{
+  border-bottom:1px solid red;
+}
+
+/*  NAVIGATION  */
+
+nav ul {
+  margin-bottom:20px;
+  text-spacing:2px;
+  font-size:11px;
+}
+nav ul, nav li {
+  margin:0;
+  padding:0;
+}
+nav li {
+  display:inline;
+  padding: 0 5px;
+}
+
+/*  SEARCHBOX  */
+/* Copied and modified from Rubenerd */
+::-webkit-input-placeholder { color:#c1c1c1 }
+:-moz-placeholder { color:#c1c1c1 } /* FF 18 */
+::-moz-placeholder { color:#c1c1c1 } /* FF 19+ */
+:-ms-input-placeholder { color:#c1c1c1 } /* IE10 */
+#search input[type="text"] {
+  border:1px solid #c1c1c1;
+  font-size:1em;
+  padding:2px;
+  width:140px;
+  align:left;
+  margin-right:10px;
+}
+#search input[type="submit"] { 
+  visibility:hidden;
+}
+legend {
+  visibility:hidden;
+}
+
 /*  HOME SECTION  *************************************************************/
 
 section,footer {
-  margin-left:230px;
+  margin-left:245px;
 }
 
 /*  ARTICLES/PAGES  ***********************************************************/
@@ -83,10 +132,23 @@ article {
   /*padding:45px 20px 20px 20px;
   font-size:13px;*/
 }
+.article-meta {
+  margin-top:15px;
+}
 
 /*  FOOTER ********************************************************************/
 
-footer { }
-footer a { }
+footer, .article-meta {
+	font-size:11px;
+	color:#000;
+  letter-spacing:2px;
+}
+footer a{
+	border-bottom:1px solid #888;
+}
+footer a:hover {
+	color:#888;
+  border-bottom:1px solid red;
+}
 
 /*  EOF  **********************************************************************/
