@@ -2,6 +2,92 @@
 layout: nil
 ---
 
-body {
-  background: #efefef;
+/*  MAIN RESET  ***************************************************************/
+
+html,body,h1,h2,h3,form,fieldset,nav ul,nav li {
+	background:transparent;
+  border:0px;
+  list-style-type:none;
+	margin:0px;
+	padding:0px;
+	vertical-align:baseline;
+  word-wrap:normal;
 }
+article,aside,details,figcaption,figure,
+footer,header,hgroup,nav,section {
+  display:block;
+}
+img {
+  display:inline; /* FIREFOX/NETSCAPE FIX */
+}
+
+/*  TOP LEVEL  ****************************************************************/
+html {
+  background-color:white;
+  text-align:center; /* CENTERING FOR IE */
+}
+body {
+  background:white;
+  font:13px "Helvetica Neue","Helvetica","Liberation Sans",sans-serif;
+  margin:0px auto; /* CENTERING FOR EVERYONE ELSE */
+  padding-right:20px;
+  padding-top:40px;
+  text-align:left; /* TO FIX CENTERING IE HACK ABOVE */
+  width:800px;
+}
+a { text-decoration:none }
+a:hover { text-decoration:none }
+img { display:inline }
+
+/*  SIDEBAR  ******************************************************************/
+
+#sidebar {
+  border:1px solid plum;
+  float:left;
+  margin-bottom:20px;
+  margin-right:20px;
+  text-align:right;
+  width:225px;
+  height:100%;
+  position:absolute;
+}
+
+/*  NAVIGATION  */
+
+nav ul {
+  margin-bottom:20px;
+}
+nav ul, nav li {
+  margin:0;
+  padding:0;
+}
+nav li { display:inline }
+nav li a { text-decoration:none }
+nav li a:hover { text-decoration:strikeout }
+
+hr {
+	background-color: #c1c1c1;
+	border: none;
+	height: 1px;
+	margin: 10px 0px 10px 0px;
+}
+
+/*  HOME SECTION  *************************************************************/
+
+section,footer {
+  margin-left:245px;
+}
+
+/*  ARTICLES/PAGES  ***********************************************************/
+
+article {
+ /* padding:45px 20px 20px 20px;
+  font-size:14px;*/
+}
+
+/*  FOOTER ********************************************************************/
+
+footer { }
+footer a { }
+
+/*  EOF  **********************************************************************/

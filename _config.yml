@@ -1,11 +1,15 @@
 ## Config, just as the title says
 
 name: "Digital and Multiplatform Storytelling"
+description: "A weblog for 57999 Digital and Multiplatform Storytelling at UTS by Clara Tse"
 language: en-AU
+markdown: rdiscount
+paginate: 1
 baseurl: http://station.claratse.com
 
 permalink: /:title/
 timezone: Australia/Sydney
+assets: https://dl.dropboxusercontent.com/u/158866275/station
 
 author:
   name: Clara Tse
