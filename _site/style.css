@@ -20,7 +20,7 @@ img {
 /*  TOP LEVEL  ****************************************************************/
 html {
   background-color:white;
-  padding:0 15px;
+  padding:0 20px;
   text-align:center; /* CENTERING FOR IE */
 }
 body {
@@ -37,6 +37,7 @@ a {
   border-bottom:1px solid black;
 }
 a:hover {
+  color:#888;
   text-decoration:none;
   border-bottom:1px solid red;
 }
@@ -71,12 +72,13 @@ header img {
 #sidebar img {
   margin-top:80px;
   margin-right:10px;
-  margin-left:10px;
+  margin-left:5px;
 }
 #sidebar a {
   text-transform:uppercase;
   border-bottom:1px solid black;
   color:#000;
+  margin-right:7px;
 }
 #sidebar a:hover{
   border-bottom:1px solid red;
@@ -135,14 +137,26 @@ article {
 .article-meta {
   margin-top:15px;
 }
-
-/*  FOOTER ********************************************************************/
-
-footer, .article-meta {
+footer, .article-meta, #pagination, #pages {
 	font-size:11px;
 	color:#000;
   letter-spacing:2px;
 }
+#pagination, #pages a {
+  font-size:12px;
+}
+#pages {
+  display:inline;
+}
+#pages li:after {
+  content:" · ";
+}
+#pages li:last-child {
+  content:"";
+}
+
+/*  FOOTER ********************************************************************/
+
 footer a{
 	border-bottom:1px solid #888;
 }
