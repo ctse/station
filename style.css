@@ -24,6 +24,7 @@ img {
 /*  TOP LEVEL  ****************************************************************/
 html {
   background-color:white;
+  padding:0 20px;
   text-align:center; /* CENTERING FOR IE */
 }
 body {
@@ -31,9 +32,8 @@ body {
   font:13px "Helvetica Neue","Helvetica","Liberation Sans",sans-serif;
   margin:0px auto; /* CENTERING FOR EVERYONE ELSE */
   padding-right:20px;
-  padding-top:40px;
   text-align:left; /* TO FIX CENTERING IE HACK ABOVE */
-  width:800px;
+  width:700px;
 }
 a { text-decoration:none }
 a:hover { text-decoration:none }
@@ -42,14 +42,16 @@ img { display:inline }
 /*  SIDEBAR  ******************************************************************/
 
 #sidebar {
-  border:1px solid plum;
   float:left;
   margin-bottom:20px;
   margin-right:20px;
   text-align:right;
-  width:225px;
+  width:205px;
   height:100%;
   position:absolute;
+}
+#sidebar img {
+  margin-top:40px;
 }
 
 /*  NAVIGATION  */
@@ -75,14 +77,15 @@ hr {
 /*  HOME SECTION  *************************************************************/
 
 section,footer {
-  margin-left:245px;
+  margin-left:230px;
 }
 
 /*  ARTICLES/PAGES  ***********************************************************/
 
 article {
- /* padding:45px 20px 20px 20px;
-  font-size:14px;*/
+  padding-top:45px;
+  /*padding:45px 20px 20px 20px;
+  font-size:13px;*/
 }
 
 /*  FOOTER ********************************************************************/
