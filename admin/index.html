@@ -1,0 +1,16 @@
+---
+layout: category
+title: Administrative posts
+thumb: ""
+---
+{% for post in site.categories.admin %}<article role="article">
+      <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+      <div class="article-meta">
+        <date datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</date> &middot;
+        <a rel="tag" href="/{{ post.category}}">{{ post.category }}</a>
+      </div>
+      <div class="article-content">
+        {{ post.content }}
+      </div>
+    </article>
+    <hr />{% endfor %}
