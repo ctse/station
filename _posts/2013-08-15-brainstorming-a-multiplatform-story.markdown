@@ -3,7 +3,7 @@ date: 2013-08-15 15:59:28+00:00
 layout: post
 slug: brainstorming-a-multiplatform-story
 title: Brainstorming a Multiplatform Story
-categories:
+category:
 - university
 tags:
 - Digital and Multiplatform Storytelling

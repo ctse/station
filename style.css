@@ -90,16 +90,16 @@ header img {
 
 /*  NAVIGATION  */
 
-nav ul {
+#sidebar nav ul {
   margin-bottom:20px;
   text-spacing:2px;
   font-size:11px;
 }
-nav ul, nav li {
+#sidebar nav ul, nav li {
   margin:0;
   padding:0;
 }
-nav li {
+#sidebar nav li {
   display:inline;
   padding: 0 5px;
 }
@@ -134,7 +134,7 @@ section,footer {
 /*  ARTICLES/PAGES  ***********************************************************/
 
 article, section {
-  padding-top:35px;
+  padding-top:15px;
   /*padding:45px 20px 20px 20px;
   font-size:13px;*/
 }
@@ -156,17 +156,12 @@ footer, .article-meta, #pagination, #pages {
 	color:#000;
   letter-spacing:2px;
 }
-#pagination, #pages a {
+#pagination, #pages {
   font-size:12px;
 }
-#pages {
+#pages ul li {
   display:inline;
-}
-#pages li:after {
-  content:" · ";
-}
-#pages li:last-child {
-  content:"";
+  width:100%;
 }
 
 /*  FOOTER ********************************************************************/

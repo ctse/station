@@ -1,10 +1,10 @@
 ---
 layout: category
-title: Administrative posts
+title: University posts
 thumb: ""
 ---
 <hr />
-{% for post in site.categories.admin %}<article role="article">
+{% for post in site.categories.university %}<article role="article">
       <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
       <div class="article-meta">
         <date datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</date> &middot;
