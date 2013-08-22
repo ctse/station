@@ -68,6 +68,10 @@ dd {
 
 header img {
   border:none;
+  margin-top:0px;
+  margin-right:10px;
+  margin-left:5px;
+  border:none;
 }
 #sidebar {
   float:left;
@@ -82,10 +86,11 @@ header img {
   position:fixed;
 }
 #sidebar img {
-  margin-top:80px;
-  margin-right:10px;
-  margin-left:5px;
   border:none;
+}
+#train {
+  margin-top:80px;
+  padding-right:10px;
 }
 #sidebar nav ul a {
   text-transform:uppercase;
