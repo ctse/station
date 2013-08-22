@@ -80,9 +80,9 @@ header img {
   text-align:right;
   width:220px;
   height:100%;
-  position:absolute;
+/*  position:absolute;
   border-right:1px solid #990000;
-  border-left:1px solid #990000;
+  border-left:1px solid #990000;*/
   position:fixed;
 }
 #sidebar img {
