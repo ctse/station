@@ -3,8 +3,7 @@ date: 2013-08-06 13:40:49+00:00
 layout: post
 slug: fanfiction-as-multiplatform-storytelling
 title: Fanfiction as Multiplatform Storytelling
-category:
-- university
+category: university
 tags:
 - Digital and Multiplatform Storytelling
 - Fanfiction

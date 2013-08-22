@@ -3,8 +3,7 @@ date: 2013-08-20 09:43:33+00:00
 layout: post
 slug: newtown-girls-with-nataliekrikowa
 title: Newtown Girls with @nataliekrikowa
-category:
-- university
+category: university
 tags:
 - Digital and Multiplatform Storytelling
 - university
