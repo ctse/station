@@ -4,7 +4,7 @@ layout: default
 <article role="article">
   <h2>{{ page.title }}</h2>
   <div class="article-meta">
-    <a href="{{ site.url }}{{ page.url }}"><date datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_string }}</date></a> &middot;
+    <a href="{{ site.baseurl }}{{ page.url }}"><date datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_string }}</date></a> &middot;
     <a rel="tag" href="/{{ page.category }}">{{ page.category }}</a>
   </div>
   <div class="article-content">
