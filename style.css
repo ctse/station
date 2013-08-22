@@ -54,6 +54,15 @@ hr {
 	height: 1px;
 	margin: 10px 0px 10px 0px;
 }
+dd {
+  padding-top:3px;
+  padding-bottom:10px;
+  font-size:12px;
+  text-transform:uppercase;
+  text-spacing:3px;
+  margin-left:20px;
+  color:#888;
+}
 
 /*  SIDEBAR  ******************************************************************/
 
