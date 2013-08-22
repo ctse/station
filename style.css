@@ -33,7 +33,7 @@ body {
   margin:0px auto; /* CENTERING FOR EVERYONE ELSE */
   padding-right:20px;
   text-align:left; /* TO FIX CENTERING IE HACK ABOVE */
-  width:700px;
+  width:800px;
 }
 a {
   text-decoration:none;
@@ -70,6 +70,7 @@ header img {
   position:absolute;
   border-right:1px solid #990000;
   border-left:1px solid #990000;
+  position:fixed;
 }
 #sidebar img {
   margin-top:80px;
@@ -133,7 +134,7 @@ section,footer {
 /*  ARTICLES/PAGES  ***********************************************************/
 
 article, section {
-  padding-top:45px;
+  padding-top:35px;
   /*padding:45px 20px 20px 20px;
   font-size:13px;*/
 }
@@ -170,6 +171,9 @@ footer, .article-meta, #pagination, #pages {
 
 /*  FOOTER ********************************************************************/
 
+footer{
+  padding-bottom:40px;
+}
 footer a{
 	border-bottom:1px solid #888;
 }

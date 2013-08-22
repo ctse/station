@@ -4,7 +4,7 @@ name: "Digital and Multiplatform Storytelling"
 description: "A weblog for 57999 Digital and Multiplatform Storytelling at UTS by Clara Tse"
 language: en-AU
 markdown: rdiscount
-paginate: 1
+paginate: 2
 baseurl: http://station.claratse.com
 
 permalink: /:title/
