@@ -9,7 +9,7 @@ baseurl: http://station.claratse.com
 
 permalink: /:title/
 timezone: Australia/Sydney
-assets: https://dl.dropboxusercontent.com/u/158866275/station
+assets: http://dl.dropboxusercontent.com/u/158866275/station
 
 author:
   name: Clara Tse
