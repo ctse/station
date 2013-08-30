@@ -11,7 +11,7 @@ tags:
 - UTS
 ---
 
-<img src="https://dl.dropboxusercontent.com/u/158866275/station/khrunitybanner.jpg" style="width:500px; height:auto;" alt="Livejournal Banner" />
+<p><img src="https://dl.dropboxusercontent.com/u/158866275/station/khrunitybanner.jpg" style="width:500px; height:auto;" alt="Livejournal Banner" /></p>
 
 <p>When discussing the second assignment in the last class this week, I went back to <a href="http://www.gutenberg.org/wiki/Gutenberg:No_Cost_or_Freedom%3F">Gutenberg</a> to look at what titles were available that I could perhaps use as the storyline for my second assignment. Adapting one of these stories would take some effort, especially as they are set in the past (hence why they are free now as their copyright has expired), but this would potentially save me effort in coming up with a totally new storyline, especially while the archives that were once available from the ABC are no longer.</p>
 
