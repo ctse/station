@@ -1,0 +1,22 @@
+---
+date: 2013-08-31 09:50:00+10:00
+layout: post
+title: Interactive Story
+category: university
+tags:
+- Digital and Multiplatform Storytelling
+- interactive
+- Javascript
+- university
+- UTS
+---
+
+<p><img src="https://dl.dropboxusercontent.com/u/158866275/uploads/2013/dmst.devriend.jpg" style="width:500px; height:auto;" alt="The Friend e-book trailer" title="The Friend e-book trailer" /></p>
+
+<p><a href="http://devriend.submarinechannel.com/en/">De Vriend</a> was linked by a classmate in another subject, however I find it to be an interesting way of telling a story. Although I'm not generally such a fan of Javascript, this experience was both smooth and well executed. I'm pleasantly surprised.</p>
+
+<p>You experience the story basically by continually scrolling down the page until you get to the bottom and the story is supplemented by additional animation and audio elements even if you stop. The best part is that you can go at your own pace.</p>
+
+<p>This is an e-book trailer so the story is somewhat vague and open to our own interpretation, but it is extremely expressive and I'd like to try my hand at this one day, perhaps. It certainly is cross platform if it is a physical novel though, you could say.</p>
+
+<p>Seems like there's heaps of cool stuff at <a href="http://submarinechannel.com/">Submarine Channel</a>, or the <a href="http://www.awwwards.com/">Awwwards</a> is a good site to gain ideas from, with a wide range of websites that may feature some interesting techniques (though Awwwards is largely for web design, to be honest).</p>
