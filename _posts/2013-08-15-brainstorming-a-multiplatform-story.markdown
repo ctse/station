@@ -15,15 +15,12 @@ tags:
 
 [![In Her Footsteps - The Disappearance of Juanita Nielsen](http://kirinyan.net/uploads/2013/uts.inherfootstepsproject.jpg)](http://atomawards.org/2012-tertiary-industry-finalists/?cat_is=21&film_id=84)
 
-One of the only individually chosen classes I've taken since 2012 is [Digital and Multiplatform Storytelling](http://handbook.uts.edu.au/subjects/57999.html). In some ways this is an incredibly humiliating experience, but anyway, it's relevant to the course and whathaveyou and I _did_ want to know more... initially, but it's a long story. Let's just say I'm sticking with it for now (fees paid and everything, ~$2.5K golly).
-
-
 
 ### Nancy Wake
 
 
 
-It was fun trying to come up with ideas for telling a story over multiple platforms though. For the first week that I attended (which was actually Week 2), because of a lack of really knowing any of the other Western-centric texts that the lecturer put up other than _Grease_ we were given the subject of [Nancy Wake](https://en.wikipedia.org/wiki/Nancy_Wake).
+It was fun trying to come up with ideas for telling a story over multiple platforms. For the first week that I attended (which was actually Week 2), because of a lack of really knowing any of the other Western-centric texts that the lecturer put up other than _Grease_ we were given the subject of [Nancy Wake](https://en.wikipedia.org/wiki/Nancy_Wake).
 
 I would be interested in maybe seeing this happen someday, though I admit I'm not particularly invested in seeing it happen by my own means. Some ideas we came up with:
 
